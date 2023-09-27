@@ -1,0 +1,125 @@
+.content {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(209, 255, 231);
+    padding: 10px;
+   display: flex;
+   border-radius: 5px;
+   box-shadow: 2px 2px 6px rgb(170, 170, 170);
+}
+.content-wrap {
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 765px){
+    .content {
+        display: block;
+        width: 420px;
+    }
+}
+
+.circle {
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+}
+.my-photo {
+margin-top: -20px;
+   width: fit-content;
+   max-height: 275px;
+}
+.about-div p {
+    
+    font-size: 20px;
+    
+}
+.about-div {
+  
+
+  
+
+}
+.name-stats {
+    text-align: center;
+    
+    
+}
+.web-dev {
+    margin-bottom: 10px;
+}
+.name-stats button {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 10px;
+    padding-top: 20px;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15px;
+    
+}
+.icon-links {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.twitter-icon {
+    width: 30px;
+    padding: 5px;
+}
+.github-icon {
+    width: 25px;
+    padding: 5px;
+}
+.instagram-icon {
+width: 26px;
+padding: 5px;
+}
+.facebook-icon {
+    width: 30px;
+    padding: 3px;
+}
+
+.about-me-wrap {
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px;
+    z-index: 100;
+    box-shadow: 2px 2px 6px rgb(170, 170, 170);
+}
+.detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.info-div {
+text-align: center;
+
+padding-left: 15px;
+border-radius: 5px;
+margin-left: -5px;
+z-index: 99;
+}
+.info-div-wrap {
+  
+
+}
+.paragraph-div {
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

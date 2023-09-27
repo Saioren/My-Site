@@ -1,0 +1,45 @@
+.header-wrap {
+   position: fixed;
+   z-index: 1000;
+   backdrop-filter: blur(10px);
+  
+    box-shadow: 1px 1px 4px rgb(158, 158, 158);
+    right: 0;
+    left: 0;
+    top: 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.hamburger-icon {
+    width: 30px;
+}
+.site-logo {
+    width: 50px;
+    border-radius: 50%;
+   
+}
+.logo-div {
+display: flex;
+align-items: center;
+}
+.logo-div p {
+    margin-left: 5px;
+}
+.menu-div {
+    display: flex;
+    align-items: center;
+}
+.down-arrow {
+    width: 22px;
+}
+.tab-1, .tab-2, .tab-3 {
+    display: flex;
+    align-items: center;
+}
+.information-tabs {
+    display: flex;
+    
+}
