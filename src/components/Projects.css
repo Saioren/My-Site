@@ -4,9 +4,6 @@
     margin: 10px;
     display: flex;
 }
-.project-info {
-    
-}
 .project-div {
     background-color: white;
     grid-area: content;
