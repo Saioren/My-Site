@@ -1,0 +1,13 @@
+{
+  "hash": "b70f84b6",
+  "browserHash": "6e10970d",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "aad9fb6c",
+      "needsInterop": true
+    }
+  },
+  "chunks": {}
+}
